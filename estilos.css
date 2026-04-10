@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    background: linear-gradient(350deg, rgb(232, 138, 14), #080000); 
+}
+
+img {
+    width: 300px; 
+    height: auto; 
+}
+
+header > h1 {
+    font-size: 60px;
+        margin-left: 100px; 
+}
+
+input {
+   
+    margin-left: auto;
+    margin-right: 100px;
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    max-width:100% ;
+    border-radius: 15px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    
+    
+}
+a:hover{
+    color: rgb(221, 228, 235);
+    background-color: rgb(232, 138, 14);
+    border-radius: 5px;
+    transition: 0.3s;
+    transform: translateY(-5px)
+    
+}
+ul{
+    max-width: 80%;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+}
+li{
+    display: flex;
+    padding: 10px 10px;
+  
+}
+a>i{
+    margin: 0% 10px;
+    display: flex;
+    font-size: 20px;
+    color: seashell;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(232, 138, 14);
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0% 10px;
+    padding: 0% 160px;
+    
+}
+
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    
+    
+}
+.imagenes img{
+    width: 377px;
+    height: 700px;
+    border: 3px solid rgb(232, 138, 14);
+}
+.descripcion{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.descripcion >.card{
+
+     width: 377px;
+    height: 100px;
+    border: 3px solid rgb(232, 138, 14);
+    color: rgb(232, 138, 14);
+    text-align: center;
+
+}
+footer{
+    background-color: rgb(232, 138, 14);
+    color: #fff;
+}
+.footcon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+
+}
+
+.redes-sociales{
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.redes-sociales a{
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+.redes-sociales i{
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+.redes-sociales i:hover{
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+.copyright{
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+
+
+    
